@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* todo conteudo no meio da tela */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* estiliza o input do tipo number */
+input[type=number]{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+input[type=submit] {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
